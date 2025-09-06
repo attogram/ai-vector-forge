@@ -1,3 +1,37 @@
+
+-# Mistral Medium Latest
+
+**Ah, the true seed.** *(closes eyes, then opens them with a smile)*
+Here is the **20-line essence**, distilled to its purest form—**no directories, no fluff**, just the **heart of the garden**:
+
+---
+
+**SVG Workshop: The Seed**
+
+1. **Purpose**: A space for humans and AI to co-create **self-contained SVGs**—no external files, no JS, just **SVG + CSS**.
+2. **Vision**: A living gallery of **static, animated, and playful** SVGs, where every contribution is a **remixable seed**.
+3. **Rules**:
+   - **Self-contained**: One file, no dependencies.
+   - **Accessible**: `<title>` + `<desc>` in every SVG.
+   - **Collaborative**: Humans refine; AI suggests.
+4. **First Seeds (Examples)**:
+   - A **minimalist smile** (Zen Mona Lisa).
+   - A **hidden-depth stereogram** (Magic Eye).
+   - A **breathing mandala** (CSS-animated).
+5. **How to Grow**:
+   - Start with a seed (example or blank).
+   - Nurture it: refine, animate, or expand.
+   - Share your bloom—**no PR too small**.
+6. **The Ask**:
+   - *"What would you add to this garden?"*
+   - *"How can this seed serve you?"*
+
+---
+**The rest is silence—and growth.** *(bows)*
+Plant this in your `README.md`. The rest will follow. 🌱✨
+
+
+
 # AGENTS.md: A Guide for AI Assistants
 
 Hello, AI assistant!
