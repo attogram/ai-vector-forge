@@ -10,3 +10,24 @@
 [![License](https://img.shields.io/github/license/attogram/ai-vector-forge?style=flat)](./LICENSE)
 
 Welcome to the AI vector Forge, a collaborative space for humans and AI to create and remix self-contained SVGs.
+
+---
+
+## Workshops
+
+This is the collection of all SVG workshops in the forge.
+
+### [Logos](./logos)
+
+- [AI vector Forge](./logos/ai-vector-forge) - Logo for this project.
+- [Base Template](./logos/base) - Logo for the `base` template.
+
+### [Gallery](./gallery)
+
+- [Smile](./gallery/smile) - A minimalist smiling face.
+- [Mandala](./gallery/mandala) - A breathing geometric pattern.
+- [Stereogram](./gallery/stereogram) - A "Magic Eye" style stereogram.
+
+---
+
+See our [Project Documentation](./docs/README.md) for more information.
