@@ -1,18 +1,11 @@
-# Logos
+# Logos Namespace
 
-This document provides details on the initial logo proposals for the AI vector Forge project.
+The `logos` namespace is a collection of workshops for creating and iterating on logos.
 
-## Assets
+## Purpose
 
-The following SVG files are included as the first "seeds" for the project. They can be found in the `assets/` directory.
+This namespace serves as a dedicated area for developing logos for various projects, brands, and ideas. Each logo has its own "workshop" directory where it can be developed and refined.
 
-- `logo_proposal_1.svg`
-- `logo_proposal_2.svg`
-- `logo_proposal_3.svg`
-- `logo_proposal_4.svg`
-- `logo_proposal_5.svg`
-- `logo_proposal_6.svg`
-- `logo_proposal_7.svg`
-- `logo_proposal_8.svg`
-- `logo_proposal_9.svg`
-- `logo_proposal_10.svg`
+## Getting Started
+
+To contribute a new logo, please see the main [`CONTRIBUTING.md`](../../CONTRIBUTING.md) file for instructions on how to set up a new workshop. You can browse the existing logo workshops in the [`/logos`](../../logos) directory.

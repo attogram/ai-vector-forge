@@ -8,4 +8,5 @@ The vision is to build a living gallery of static, animated, and playful SVGs, w
 
 ## Documentation
 
-- [Logos](./forge.logos.md): Information about the initial logo proposals.
+- [Logos Namespace](./forge.logos.md): Documentation for the `logos` namespace.
+- [Gallery Namespace](./forge.gallery.md): Documentation for the `gallery` namespace.

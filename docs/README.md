@@ -2,8 +2,9 @@
 
 ## AI vector Forge
 
-- [AI vector Forge](./forge.md) - The main documentation for the project.
-  - [Logos](./forge.logos.md) - Information about the initial logo proposals.
+- [Project Documentation](./forge.md) - The main documentation for the project.
+  - [Logos Namespace](./forge.logos.md) - Documentation for the `logos` namespace.
+  - [Gallery Namespace](./forge.gallery.md) - Documentation for the `gallery` namespace.
 
 This directory contains the documentation for the project.
 
