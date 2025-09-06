@@ -1,0 +1,12 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Minimalist Smile</title>
+  <desc id="desc">A very simple line drawing of a smiling face, consisting of a circle for the head, two dots for eyes, and a simple arc for the mouth.</desc>
+  <style>
+    .face { stroke: black; stroke-width: 2; fill: none; }
+    .eyes { fill: black; }
+  </style>
+  <circle class="face" cx="100" cy="100" r="90" />
+  <circle class="eyes" cx="70" cy="80" r="5" />
+  <circle class="eyes" cx="130" cy="80" r="5" />
+  <path class="face" d="M 70 130 C 80 150, 120 150, 130 130" />
+</svg>

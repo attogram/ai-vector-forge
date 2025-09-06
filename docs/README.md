@@ -1,6 +1,12 @@
 # Documentation
 
-This directory contains the documentation for the `base` project.
+## AI vector Forge
+
+- [Project Documentation](./forge.md) - The main documentation for the project.
+  - [Logos Namespace](./forge.logos.md) - Documentation for the `logos` namespace.
+  - [Gallery Namespace](./forge.gallery.md) - Documentation for the `gallery` namespace.
+
+This directory contains the documentation for the project.
 
 - [The `base` Philosophy](./base.md) - An overview of the core principles and goals of this template.
 

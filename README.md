@@ -1,17 +1,33 @@
-ai vector forge
+# AI vector Forge
 
+[![Run Tests](https://github.com/attogram/ai-vector-forge/actions/workflows/ci.yml/badge.svg)](https://github.com/attogram/ai-vector-forge/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/attogram/ai-vector-forge?style=flat)](https://github.com/attogram/ai-vector-forge/releases)
+[![GitHub stars](https://img.shields.io/github/stars/attogram/ai-vector-forge?style=flat)](https://github.com/attogram/ai-vector-forge/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/attogram/ai-vector-forge?style=flat)](https://github.com/attogram/ai-vector-forge/watchers)
+[![GitHub forks](https://img.shields.io/github/forks/attogram/ai-vector-forge?style=flat)](https://github.com/attogram/ai-vector-forge/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/attogram/ai-vector-forge?style=flat)](https://github.com/attogram/ai-vector-forge/issues)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/attogram/ai-vector-forge?style=flat)](https://github.com/attogram/ai-vector-forge/commits/main)
+[![License](https://img.shields.io/github/license/attogram/ai-vector-forge?style=flat)](./LICENSE)
 
-[![Run Tests](https://github.com/attogram/base/actions/workflows/ci.yml/badge.svg)](https://github.com/attogram/base/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/attogram/base?style=flat)](https://github.com/attogram/base/releases)
-[![GitHub stars](https://img.shields.io/github/stars/attogram/base?style=flat)](https://github.com/attogram/base/stargazers)
-[![GitHub watchers](https://img.shields.io/github/watchers/attogram/base?style=flat)](https://github.com/attogram/base/watchers)
-[![Forks](https://img.shields.io/github/forks/attogram/base?style=flat)](https://github.com/attogram/base/forks)
-[![Issues](https://img.shields.io/github/issues/attogram/base?style=flat)](https://github.com/attogram/base/issues)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/attogram/base?style=flat)](https://github.com/attogram/base/commits/main/)
-[![License](https://img.shields.io/github/license/attogram/base?style=flat)](./LICENSE)
+Welcome to the AI vector Forge, a collaborative space for humans and AI to create and remix self-contained SVGs.
 
-Welcome to [base](./docs/base.md) - Your starting point for new GitHub repos
+---
 
-- [Documentation](./docs/README.md)
+## Workshops
 
-- Repo: [attogram/base](https://github.com/attogram/base)
+This is the collection of all SVG workshops in the forge.
+
+### [Logos](./logos)
+
+- [AI vector Forge](./logos/ai-vector-forge) - Logo for this project.
+- [Base Template](./logos/base) - Logo for the `base` template.
+
+### [Gallery](./gallery)
+
+- [Smile](./gallery/smile) - A minimalist smiling face.
+- [Mandala](./gallery/mandala) - A breathing geometric pattern.
+- [Stereogram](./gallery/stereogram) - A "Magic Eye" style stereogram.
+
+---
+
+See our [Project Documentation](./docs/README.md) for more information.

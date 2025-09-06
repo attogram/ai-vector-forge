@@ -1,1 +1,1 @@
-base ${TAG} - your starting point for new GitHub projects
+AI vector Forge ${TAG} - A place for humans and AI to co-create SVGs.
