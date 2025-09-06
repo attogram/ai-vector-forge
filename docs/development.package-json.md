@@ -7,7 +7,7 @@ dependencies and scripts.
 
 ## What is their Purpose in `base`?
 
-This template is designed to be language-agnostic.
+The `attogram/base` template is designed to be language-agnostic.
 However, it does use a few Node.js-based tools for development purposes to
 ensure code quality and consistency.
 

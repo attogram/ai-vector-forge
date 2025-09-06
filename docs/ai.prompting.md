@@ -1,7 +1,7 @@
-# Prompting AI Agents for `attogram/ai-vector-forge` Projects
+# Prompting AI Agents for `attogram/base` Projects
 
 When using AI agents to create or update a repository based on
-`attogram/ai-vector-forge`, providing a clear, upfront context is the most effective way
+`attogram/base`, providing a clear, upfront context is the most effective way
 to get the results you want.
 This guide provides two distinct prompt examples to help you steer AI agents in
 the right direction, whether you want to build upon the `base` philosophy or
@@ -12,12 +12,12 @@ intentionally modify it.
 ## Prompt 1: Using `base` As-Is
 
 This prompt is ideal when you want to create a new project that adheres to the
-core, language-agnostic philosophy of the `attogram/ai-vector-forge` template.
+core, language-agnostic philosophy of the `attogram/base` template.
 
 ### Example Prompt: Create a Personal Blog
 
 ```
-This project builds upon the attogram/ai-vector-forge template.
+This project builds upon the attogram/base template.
 Please integrate the new website content without removing the core base
 repository files or structure.
 
@@ -39,14 +39,14 @@ as it may contain project-specific guidelines for AI agents.
 
 ## Prompt 2: Modifying `base` for a New Technology
 
-This prompt is for when you want to use `attogram/ai-vector-forge` as a starting point
+This prompt is for when you want to use `attogram/base` as a starting point
 but intend to introduce a specific programming language or framework.
 This example uses PHP and Laravel.
 
 ### Example Prompt: Add a Laravel Backend
 
 ```
-This project will use `attogram/ai-vector-forge` as a foundation, but we will be
+This project will use `attogram/base` as a foundation, but we will be
 modifying it to support a PHP/Laravel application.
 
 Here are the requirements:
