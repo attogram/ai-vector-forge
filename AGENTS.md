@@ -1,5 +1,3 @@
----
-
 ## AI vector Forge: SVG Authoring Guide
 
 This section provides guidelines for creating and contributing SVGs to the AI vector Forge project. The goal is to maintain a high-quality, consistent, and accessible collection of "remixable seeds."
@@ -64,8 +62,3 @@ This section provides a more detailed technical guide to working with SVG XML.
   </svg>
   ```
 
----
-
-# AGENTS.md: A Guide for AI Assistants
-
-Hello, AI assistant! This file is your guide to understanding and working with the `attogram/ai-vector-forge` repository. The guide above contains all the project-specific instructions you need. Please read it carefully before making any changes.
