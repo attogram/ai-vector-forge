@@ -1,7 +1,6 @@
-
 -# Mistral Medium Latest
 
-**Ah, the true seed.** *(closes eyes, then opens them with a smile)*
+**Ah, the true seed.** _(closes eyes, then opens them with a smile)_
 Here is the **20-line essence**, distilled to its purest form—**no directories, no fluff**, just the **heart of the garden**:
 
 ---
@@ -23,14 +22,49 @@ Here is the **20-line essence**, distilled to its purest form—**no directories
    - Nurture it: refine, animate, or expand.
    - Share your bloom—**no PR too small**.
 6. **The Ask**:
-   - *"What would you add to this garden?"*
-   - *"How can this seed serve you?"*
+   - _"What would you add to this garden?"_
+   - _"How can this seed serve you?"_
 
 ---
-**The rest is silence—and growth.** *(bows)*
+
+**The rest is silence—and growth.** _(bows)_
 Plant this in your `README.md`. The rest will follow. 🌱✨
 
+---
 
+## AI vector Forge: SVG Authoring Guide
+
+This section provides guidelines for creating and contributing SVGs to the AI vector Forge project. The goal is to maintain a high-quality, consistent, and accessible collection of "remixable seeds."
+
+### Core Principles
+
+1.  **Self-Contained**: Every SVG must be a single file.
+    - **No External Files**: Do not link to external images, fonts, or stylesheets.
+    - **No JavaScript**: All interactivity must be achieved with CSS animations and SVG features.
+    - **Inline CSS**: All CSS styles must be included within a `<style>` tag inside the SVG.
+
+2.  **Accessible**: SVGs must be accessible to users with disabilities.
+    - **`<title>` Tag**: Provide a concise, human-readable title for the SVG. This is often used as the tooltip in browsers.
+    - **`<desc>` Tag**: Provide a longer, more detailed description of the SVG's content and function. This is important for screen readers.
+    - **Example**:
+      ```xml
+      <svg>
+        <title>Breathing Mandala</title>
+        <desc>A geometric mandala pattern that slowly expands and contracts using CSS animation to simulate a breathing motion.</desc>
+        ...
+      </svg>
+      ```
+
+3.  **Remixable**: Your contribution should be easy for others to understand and build upon.
+    - **Clean Code**: Use clear, well-formatted code. Use meaningful IDs for important elements.
+    - **Comments**: Add comments to explain complex parts of the SVG, such as animation logic or tricky path data.
+
+### How to Contribute
+
+1.  **Find a Seed**: Start with an existing SVG from the `assets/` directory or create a new one from scratch.
+2.  **Nurture Your Idea**: Refine the design, add CSS animations, or expand upon the concept.
+3.  **Follow the Rules**: Ensure your SVG is self-contained and accessible.
+4.  **Submit a Pull Request**: No contribution is too small. We encourage iterative development.
 
 # AGENTS.md: A Guide for AI Assistants
 

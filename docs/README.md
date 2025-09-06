@@ -1,6 +1,11 @@
 # Documentation
 
-This directory contains the documentation for the `base` project.
+## AI vector Forge
+
+- [AI vector Forge](./forge.md) - The main documentation for the project.
+  - [Logos](./forge.logos.md) - Information about the initial logo proposals.
+
+This directory contains the documentation for the project.
 
 - [The `base` Philosophy](./base.md) - An overview of the core principles and goals of this template.
 

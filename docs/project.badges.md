@@ -50,10 +50,10 @@ project is currently in a working state.
 
 **GitHub Actions**
 
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/attogram/base/ci.yml?branch=main)](https://github.com/attogram/base/actions/workflows/ci.yml)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/attogram/ai-vector-forge/ci.yml?branch=main)](https://github.com/attogram/ai-vector-forge/actions/workflows/ci.yml)
 
 ```markdown
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/attogram/base/ci.yml?branch=main)](https://github.com/attogram/base/actions/workflows/ci.yml)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/attogram/ai-vector-forge/ci.yml?branch=main)](https://github.com/attogram/ai-vector-forge/actions/workflows/ci.yml)
 ```
 
 ### Releases
@@ -62,10 +62,10 @@ These badges show the latest release version of your project.
 
 **GitHub Release**
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/attogram/base)](https://github.com/attogram/base/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/attogram/ai-vector-forge)](https://github.com/attogram/ai-vector-forge/releases)
 
 ```markdown
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/attogram/base)](https://github.com/attogram/base/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/attogram/ai-vector-forge)](https://github.com/attogram/ai-vector-forge/releases)
 ```
 
 ### Social
@@ -74,18 +74,18 @@ These badges show statistics from social coding platforms like GitHub.
 
 **GitHub Stars**
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/attogram/base?style=social)](https://github.com/attogram/base/stargazers)
+[![GitHub Repo stars](https://img.shields.io/github/stars/attogram/ai-vector-forge?style=social)](https://github.com/attogram/ai-vector-forge/stargazers)
 
 ```markdown
-[![GitHub Repo stars](https://img.shields.io/github/stars/attogram/base?style=social)](https://github.com/attogram/base/stargazers)
+[![GitHub Repo stars](https://img.shields.io/github/stars/attogram/ai-vector-forge?style=social)](https://github.com/attogram/ai-vector-forge/stargazers)
 ```
 
 **GitHub Forks**
 
-[![GitHub forks](https://img.shields.io/github/forks/attogram/base?style=social)](https://github.com/attogram/base/network/members)
+[![GitHub forks](https://img.shields.io/github/forks/attogram/ai-vector-forge?style=social)](https://github.com/attogram/ai-vector-forge/network/members)
 
 ```markdown
-[![GitHub forks](https://img.shields.io/github/forks/attogram/base?style=social)](https://github.com/attogram/base/network/members)
+[![GitHub forks](https://img.shields.io/github/forks/attogram/ai-vector-forge?style=social)](https://github.com/attogram/ai-vector-forge/network/members)
 ```
 
 ### License
@@ -94,10 +94,10 @@ It's a good practice to include a badge for your project's license.
 
 **GitHub License**
 
-[![GitHub](https://img.shields.io/github/license/attogram/base)](./LICENSE)
+[![GitHub](https://img.shields.io/github/license/attogram/ai-vector-forge)](./LICENSE)
 
 ```markdown
-[![GitHub](https://img.shields.io/github/license/attogram/base)](./LICENSE)
+[![GitHub](https://img.shields.io/github/license/attogram/ai-vector-forge)](./LICENSE)
 ```
 
 ## How many badges is too many?
