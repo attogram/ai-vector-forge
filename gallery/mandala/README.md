@@ -6,6 +6,8 @@ This workshop is for a simple, CSS-animated "breathing" mandala. It is based on 
 
 ![Breathing Mandala](./mandala.svg)
 
+![v1](./mandala.1.svg)
+
 ## Description
 
 This SVG is a remixable seed for creating animated geometric patterns. The animation is a slow, pulsing zoom effect created with CSS keyframes.
