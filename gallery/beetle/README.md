@@ -22,7 +22,7 @@ It is what it is
 
 ![v2](./revisions/v1.svg)
 
-- [v2.svg](./revisions/v1.svg) - by Hong 
+- [v2.svg](./revisions/v1.svg) - by Hong
 
 ### v1
 
