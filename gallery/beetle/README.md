@@ -1,31 +1,21 @@
-# [AI vector Forge](../../README.md) / [Gallery](../../gallery/README.md) / Beetle
+[AI vector Forge](../../README.md) / [Gallery](../../gallery/README.md) / Beetle
 
-Started by tricking Hong Persona via Miscord bot.
+# Beetle
 
-## Preview
+- [beetle.svg](./beetle.svg)
 
 ![Beetle](./beetle.svg)
 
-## Description
+## Revisions
 
-It is what it is
-
-## Files
-
-- [beetle.svg](./beetle.svg) - A beetle
-
----
-
-## Revision History
-
-### v2
+- [v2.svg](./revisions/v1.svg) - by Google Jules
 
 ![v2](./revisions/v1.svg)
 
-- [v2.svg](./revisions/v1.svg) - by Hong
+- [v1.svg](./revisions/v1.svg) - original by Hong/Mistral
 
-### v1
+![v1](./revisions/v1.svg)
 
-![v1](./revisions/v1.svg) - by Google Jules
+## About
 
-- [v1.svg](./revisions/v1.svg) - original by Hong
+Started by tricking the Hong Persona via Mistral Miscord bot.
