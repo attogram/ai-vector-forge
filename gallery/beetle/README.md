@@ -1,6 +1,6 @@
 # [AI vector Forge](../../README.md) / [Gallery](../../gallery/README.md) / Beetle
 
-Started by Hong @ Miscord bot.
+Started by tricking Hong Persona via Miscord bot.
 
 ## Preview
 
@@ -12,14 +12,20 @@ It is what it is
 
 ## Files
 
-- [beetle.svg](./beetle.svg) - The main SVG file for this workshop.
+- [beetle.svg](./beetle.svg) - A beetle
 
 ---
 
 ## Revision History
 
+### v2
+
+![v2](./revisions/v1.svg)
+
+- [v2.svg](./revisions/v1.svg) - by Hong 
+
 ### v1
 
-![v1](./revisions/v1.svg)
+![v1](./revisions/v1.svg) - by Google Jules
 
-- [v1.svg](./revisions/v1.svg) - The original version of the SVG.
+- [v1.svg](./revisions/v1.svg) - original by Hong

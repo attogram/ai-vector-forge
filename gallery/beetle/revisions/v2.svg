@@ -1,0 +1,114 @@
+<svg
+  width="200"
+  height="120"
+  viewBox="0 0 200 120"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Beetle v2</title>
+  <desc id="desc">
+    A stylized drawing of a beetle with colors and a subtle shimmer effect on
+    its wing covers.
+  </desc>
+  <style>
+    :root {
+      --body-color: #3a2c1a;
+      --mandible-color: #5a4a3a;
+      --leg-color: #5a4a3a;
+      --wing-color: #5a4a3a;
+      --antenna-color: #5a4a3a;
+      --shimmer-color: #7a6a5a;
+      --animation-duration: 5s;
+    }
+    @keyframes shimmer {
+      0% {
+        stop-color: var(--wing-color);
+      }
+      50% {
+        stop-color: var(--shimmer-color);
+      }
+      100% {
+        stop-color: var(--wing-color);
+      }
+    }
+  </style>
+  <defs>
+    <linearGradient id="shimmer-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="var(--wing-color)" />
+      <stop offset="50%" stop-color="var(--wing-color)">
+        <animate
+          attributeName="stop-color"
+          values="var(--wing-color); var(--shimmer-color); var(--wing-color)"
+          dur="var(--animation-duration)"
+          repeatCount="indefinite"
+        />
+      </stop>
+      <stop offset="100%" stop-color="var(--wing-color)" />
+    </linearGradient>
+  </defs>
+  <g id="beetle-body">
+    <ellipse cx="100" cy="70" rx="30" ry="20" fill="var(--body-color)" />
+    <circle cx="130" cy="60" r="12" fill="var(--body-color)" />
+  </g>
+  <g id="beetle-mandibles">
+    <path d="M140 55 L150 50 L145 60 Z" fill="var(--mandible-color)" />
+    <path d="M140 65 L150 70 L145 60 Z" fill="var(--mandible-color)" />
+  </g>
+  <g id="beetle-legs">
+    <line
+      x1="90"
+      y1="80"
+      x2="70"
+      y2="95"
+      stroke="var(--leg-color)"
+      stroke-width="2"
+    />
+    <line
+      x1="95"
+      y1="80"
+      x2="75"
+      y2="95"
+      stroke="var(--leg-color)"
+      stroke-width="2"
+    />
+    <line
+      x1="110"
+      y1="80"
+      x2="130"
+      y2="95"
+      stroke="var(--leg-color)"
+      stroke-width="2"
+    />
+    <line
+      x1="115"
+      y1="80"
+      x2="135"
+      y2="95"
+      stroke="var(--leg-color)"
+      stroke-width="2"
+    />
+  </g>
+  <g id="beetle-wings">
+    <path d="M80 60 L60 40 L110 30 L130 50 Z" fill="url(#shimmer-gradient)" />
+    <path d="M120 60 L140 40 L190 30 L170 50 Z" fill="url(#shimmer-gradient)" />
+  </g>
+  <g id="beetle-antennae">
+    <line
+      x1="130"
+      y1="50"
+      x2="140"
+      y2="35"
+      stroke="var(--antenna-color)"
+      stroke-width="1"
+    />
+    <line
+      x1="130"
+      y1="55"
+      x2="145"
+      y2="40"
+      stroke="var(--antenna-color)"
+      stroke-width="1"
+    />
+  </g>
+</svg>
