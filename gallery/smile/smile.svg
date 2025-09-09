@@ -6,11 +6,11 @@
   role="img"
   aria-labelledby="title desc"
 >
-  <title id="title">Minimalist Smile v2</title>
+  <title id="title">Winking Smile v3</title>
   <desc id="desc">
-    A very simple line drawing of a smiling face, consisting of a circle for the
-    head, two dots for eyes, and a simple arc for the mouth. This version uses
-    CSS variables for easy theming.
+    A very simple line drawing of a winking face, consisting of a circle for the
+    head, one dot for an eye, a curved line for a winking eye, and a simple arc
+    for the mouth. This version uses CSS variables for easy theming.
   </desc>
   <style>
     :root {
@@ -18,6 +18,7 @@
       --face-stroke-width: 2;
       --face-fill-color: none;
       --eyes-fill-color: black;
+      --wink-stroke-color: black;
     }
     .face {
       stroke: var(--face-stroke-color);
@@ -27,9 +28,14 @@
     .eyes {
       fill: var(--eyes-fill-color);
     }
+    .wink {
+      stroke: var(--wink-stroke-color);
+      stroke-width: var(--face-stroke-width);
+      fill: none;
+    }
   </style>
   <circle class="face" cx="100" cy="100" r="90" />
   <circle class="eyes" cx="70" cy="80" r="5" />
-  <circle class="eyes" cx="130" cy="80" r="5" />
+  <path class="wink" d="M 125 75 C 130 85, 135 85, 140 75" />
   <path class="face" d="M 70 130 C 80 150, 120 150, 130 130" />
 </svg>

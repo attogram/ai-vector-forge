@@ -6,24 +6,34 @@
   role="img"
   aria-labelledby="title desc"
 >
-  <title id="title">Base Logo v2</title>
+  <title id="title">Base Logo v3</title>
   <desc id="desc">
-    The logo for the Base template. A simple geometric shape. This version uses
-    CSS variables and the defs element for more efficient code.
+    The logo for the Base template. A simple geometric shape with a diagonal
+    line pattern. This version uses CSS variables and the defs element for more
+    efficient code.
   </desc>
   <style>
     :root {
       --logo-stroke-color: black;
       --logo-stroke-width: 3;
-      --logo-fill-color: #f0f0f0;
+      --pattern-color: #cccccc;
+      --bg-color: #f0f0f0;
     }
     .logo-shape {
       stroke: var(--logo-stroke-color);
       stroke-width: var(--logo-stroke-width);
-      fill: var(--logo-fill-color);
+      fill: url(#pattern);
     }
   </style>
   <defs>
+    <pattern id="pattern" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="var(--bg-color)" />
+      <path
+        d="M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2"
+        stroke="var(--pattern-color)"
+        stroke-width="1"
+      />
+    </pattern>
     <rect id="square" width="80" height="80" />
   </defs>
   <use href="#square" x="60" y="60" class="logo-shape" />
