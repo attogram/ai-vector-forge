@@ -11,7 +11,7 @@
 
 Welcome to the AI vector Forge, a collaborative space for humans and AI to create and remix self-contained SVGs.
 
-Repo: https://github.com/attogram/ai-vector-forge
+Repo: <https://github.com/attogram/ai-vector-forge>
 
 ## Workshops
 
