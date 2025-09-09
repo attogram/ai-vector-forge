@@ -1,4 +1,4 @@
-# AI vector Forge Logo
+# [AI vector Forge](../../README.md) / [Logos](../../logos/README.md) / AI vector Forge Logo
 
 This workshop is for creating and iterating on the logo for this project, `ai-vector-forge`.
 
@@ -11,3 +11,17 @@ This workshop is for creating and iterating on the logo for this project, `ai-ve
 ## Description
 
 This is the main logo for the project. It should be simple, memorable, and reflect the project's theme of AI and vector graphics.
+
+## Files
+
+- [ai-vector-forge.svg](./ai-vector-forge.svg) - The main SVG file for this workshop.
+
+---
+
+## Revision History
+
+### v1
+
+![v1](./revisions/v1.svg)
+
+- [v1.svg](./revisions/v1.svg) - The original version of the SVG.

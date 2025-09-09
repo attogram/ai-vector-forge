@@ -1,10 +1,40 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Base Template Logo</title>
-  <desc id="desc">A simple logo for the base template concept. It features the word 'base' in a monospace font on a solid, dark background, representing a foundation.</desc>
+<svg
+  width="200"
+  height="200"
+  viewBox="0 0 200 200"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Base Logo v3</title>
+  <desc id="desc">
+    The logo for the Base template. A simple geometric shape with a diagonal
+    line pattern. This version uses CSS variables and the defs element for more
+    efficient code.
+  </desc>
   <style>
-    .bg { fill: #333; }
-    .text { fill: #fff; font-family: monospace; font-size: 60px; text-anchor: middle; }
+    :root {
+      --logo-stroke-color: black;
+      --logo-stroke-width: 3;
+      --pattern-color: #cccccc;
+      --bg-color: #f0f0f0;
+    }
+    .logo-shape {
+      stroke: var(--logo-stroke-color);
+      stroke-width: var(--logo-stroke-width);
+      fill: url(#pattern);
+    }
   </style>
-  <rect class="bg" width="200" height="200" rx="15"/>
-  <text class="text" x="100" y="115">base</text>
+  <defs>
+    <pattern id="pattern" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="var(--bg-color)" />
+      <path
+        d="M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2"
+        stroke="var(--pattern-color)"
+        stroke-width="1"
+      />
+    </pattern>
+    <rect id="square" width="80" height="80" />
+  </defs>
+  <use href="#square" x="60" y="60" class="logo-shape" />
 </svg>

@@ -1,0 +1,42 @@
+<svg
+  width="400"
+  height="300"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Simple Stereogram</title>
+  <desc id="desc">
+    A simple single-image stereogram. A field of random dots contains a hidden
+    shape (a square) that can be seen by de-focusing the eyes. The effect is
+    created by horizontally shifting the pattern in the region of the square.
+  </desc>
+  <defs>
+    <pattern
+      id="dots"
+      x="0"
+      y="0"
+      width="20"
+      height="20"
+      patternUnits="userSpaceOnUse"
+    >
+      <circle cx="10" cy="10" r="1" fill="black" />
+      <circle cx="2" cy="15" r="1" fill="black" />
+      <circle cx="18" cy="5" r="1" fill="black" />
+    </pattern>
+    <pattern
+      id="shifted-dots"
+      x="2"
+      y="0"
+      width="20"
+      height="20"
+      patternUnits="userSpaceOnUse"
+    >
+      <circle cx="10" cy="10" r="1" fill="black" />
+      <circle cx="2" cy="15" r="1" fill="black" />
+      <circle cx="18" cy="5" r="1" fill="black" />
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="100%" height="100%" fill="url(#dots)" />
+  <rect x="100" y="75" width="200" height="150" fill="url(#shifted-dots)" />
+</svg>
