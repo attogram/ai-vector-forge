@@ -6,7 +6,6 @@ Started by Hong @ Miscord bot.
 
 ![Beetle](./beetle.svg)
 
-
 ## Description
 
 It is what it is
