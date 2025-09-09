@@ -15,4 +15,13 @@ This is the main logo for the project. It should be simple, memorable, and refle
 ## Files
 
 - [ai-vector-forge.svg](./ai-vector-forge.svg) - The main SVG file for this workshop.
-- [revisions/](./revisions/README.md) - Directory for different versions of the SVG.
+
+---
+
+## Revision History
+
+### v1
+
+![v1](./revisions/v1.svg)
+
+- [v1.svg](./revisions/v1.svg) - The original version of the SVG.

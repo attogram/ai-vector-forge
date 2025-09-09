@@ -13,4 +13,19 @@ This SVG is a remixable seed for creating animated geometric patterns. The anima
 ## Files
 
 - [mandala.svg](./mandala.svg) - The main SVG file for this workshop.
-- [revisions/](./revisions/README.md) - Directory for different versions of the SVG.
+
+---
+
+## Revision History
+
+### v1
+
+![v1](./revisions/v1.svg)
+
+- [v1.svg](./revisions/v1.svg) - The original version of the SVG.
+
+### v0
+
+![v0](./revisions/v0.svg)
+
+- [v0.svg](./revisions/v0.svg) - A previous version of the SVG.

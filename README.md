@@ -24,8 +24,9 @@ This is the collection of all SVG workshops in the forge.
 
 ### [Gallery](./gallery)
 
-- [Smile](./gallery/smile) - A minimalist smiling face.
+- [Beetle](./gallery/beetle) - A line drawing of a beetle.
 - [Mandala](./gallery/mandala) - A breathing geometric pattern.
+- [Smile](./gallery/smile) - A minimalist smiling face.
 - [Stereogram](./gallery/stereogram) - A "Magic Eye" style stereogram.
 
 ---

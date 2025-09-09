@@ -15,4 +15,13 @@ This logo should represent the idea of a clean, solid, and reusable foundation f
 ## Files
 
 - [base.svg](./base.svg) - The main SVG file for this workshop.
-- [revisions/](./revisions/README.md) - Directory for different versions of the SVG.
+
+---
+
+## Revision History
+
+### v1
+
+![v1](./revisions/v1.svg)
+
+- [v1.svg](./revisions/v1.svg) - The original version of the SVG.
