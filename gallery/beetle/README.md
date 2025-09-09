@@ -8,9 +8,13 @@
 
 ## Revisions
 
-- [v2.svg](./revisions/v1.svg) - by Google Jules
+- [v3.svg](./revisions/v3.svg) - by Hong/Mistral
 
-![v2](./revisions/v1.svg)
+![v3](./revisions/v3.svg)
+
+- [v2.svg](./revisions/v2.svg) - by Google Jules
+
+![v2](./revisions/v2.svg)
 
 - [v1.svg](./revisions/v1.svg) - original by Hong/Mistral
 
