@@ -6,26 +6,19 @@
   role="img"
   aria-labelledby="title desc"
 >
-  <title id="title">Minimalist Smile v2</title>
+  <title id="title">Minimalist Smile</title>
   <desc id="desc">
     A very simple line drawing of a smiling face, consisting of a circle for the
-    head, two dots for eyes, and a simple arc for the mouth. This version uses
-    CSS variables for easy theming.
+    head, two dots for eyes, and a simple arc for the mouth.
   </desc>
   <style>
-    :root {
-      --face-stroke-color: black;
-      --face-stroke-width: 2;
-      --face-fill-color: none;
-      --eyes-fill-color: black;
-    }
     .face {
-      stroke: var(--face-stroke-color);
-      stroke-width: var(--face-stroke-width);
-      fill: var(--face-fill-color);
+      stroke: black;
+      stroke-width: 2;
+      fill: none;
     }
     .eyes {
-      fill: var(--eyes-fill-color);
+      fill: black;
     }
   </style>
   <circle class="face" cx="100" cy="100" r="90" />

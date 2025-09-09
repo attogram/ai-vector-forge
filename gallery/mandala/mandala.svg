@@ -1,28 +1,50 @@
-<svg width="200" height="200" viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Breathing Mandala</title>
-  <desc id="desc">A geometric mandala pattern made of concentric, rotating shapes. A CSS animation creates a slow 'breathing' effect by scaling the entire group up and down.</desc>
+<svg
+  width="200"
+  height="200"
+  viewBox="0 0 200 200"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Breathing Mandala v2</title>
+  <desc id="desc">
+    A geometric mandala pattern that slowly "breathes". This version uses CSS
+    variables for easy theming and includes a scaling animation.
+  </desc>
   <style>
-    .shape { stroke: #000; stroke-width: 1; fill: none; }
-    @keyframes breathe {
-      0% { transform: scale(0.95); }
-      50% { transform: scale(1.05); }
-      100% { transform: scale(0.95); }
+    :root {
+      --mandala-stroke-color: black;
+      --mandala-stroke-width: 1;
+      --mandala-fill-color: none;
+      --animation-duration: 8s;
     }
-    .breathing-group {
-      animation: breathe 8s ease-in-out infinite;
+    .mandala {
+      stroke: var(--mandala-stroke-color);
+      stroke-width: var(--mandala-stroke-width);
+      fill: var(--mandala-fill-color);
       transform-origin: center;
+      animation: breathe var(--animation-duration) ease-in-out infinite;
+    }
+    @keyframes breathe {
+      0% {
+        transform: scale(0.95);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(0.95);
+      }
     }
   </style>
-  <g class="breathing-group">
-    <circle class="shape" r="20"/>
-    <circle class="shape" r="40"/>
-    <circle class="shape" r="60"/>
-    <circle class="shape" r="80"/>
-    <g transform="rotate(45)">
-      <circle class="shape" r="20"/>
-      <circle class="shape" r="40"/>
-      <circle class="shape" r="60"/>
-      <circle class="shape" r="80"/>
-    </g>
+  <g class="mandala">
+    <circle cx="100" cy="100" r="80" />
+    <circle cx="100" cy="100" r="60" />
+    <circle cx="100" cy="100" r="40" />
+    <circle cx="100" cy="100" r="20" />
+    <path d="M100 20 L100 180" />
+    <path d="M20 100 L180 100" />
+    <path d="M49 49 L151 151" />
+    <path d="M49 151 L151 49" />
   </g>
 </svg>

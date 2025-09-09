@@ -1,0 +1,49 @@
+<svg
+  width="200"
+  height="200"
+  viewBox="-100 -100 200 200"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Breathing Mandala</title>
+  <desc id="desc">
+    A geometric mandala pattern made of concentric, rotating shapes. A CSS
+    animation creates a slow 'breathing' effect by scaling the entire group up
+    and down.
+  </desc>
+  <style>
+    .shape {
+      stroke: #000;
+      stroke-width: 1;
+      fill: none;
+    }
+    @keyframes breathe {
+      0% {
+        transform: scale(0.95);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(0.95);
+      }
+    }
+    .breathing-group {
+      animation: breathe 8s ease-in-out infinite;
+      transform-origin: center;
+    }
+  </style>
+  <g class="breathing-group">
+    <circle class="shape" r="20" />
+    <circle class="shape" r="40" />
+    <circle class="shape" r="60" />
+    <circle class="shape" r="80" />
+    <g transform="rotate(45)">
+      <circle class="shape" r="20" />
+      <circle class="shape" r="40" />
+      <circle class="shape" r="60" />
+      <circle class="shape" r="80" />
+    </g>
+  </g>
+</svg>

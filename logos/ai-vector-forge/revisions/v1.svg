@@ -1,0 +1,27 @@
+<svg
+  width="200"
+  height="200"
+  viewBox="0 0 200 200"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">AI vector Forge Logo</title>
+  <desc id="desc">
+    A simple placeholder logo for the AI vector Forge project. It features the
+    letters 'AVF' in a monospace font, inside a dark circle.
+  </desc>
+  <style>
+    .bg {
+      fill: #2c3e50;
+    }
+    .text {
+      fill: #ecf0f1;
+      font-family: monospace;
+      font-size: 80px;
+      text-anchor: middle;
+    }
+  </style>
+  <circle class="bg" cx="100" cy="100" r="100" />
+  <text class="text" x="100" y="125">AVF</text>
+</svg>

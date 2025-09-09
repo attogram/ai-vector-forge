@@ -1,0 +1,27 @@
+<svg
+  width="200"
+  height="200"
+  viewBox="0 0 200 200"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Base Template Logo</title>
+  <desc id="desc">
+    A simple logo for the base template concept. It features the word 'base' in
+    a monospace font on a solid, dark background, representing a foundation.
+  </desc>
+  <style>
+    .bg {
+      fill: #333;
+    }
+    .text {
+      fill: #fff;
+      font-family: monospace;
+      font-size: 60px;
+      text-anchor: middle;
+    }
+  </style>
+  <rect class="bg" width="200" height="200" rx="15" />
+  <text class="text" x="100" y="115">base</text>
+</svg>
