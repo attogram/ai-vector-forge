@@ -1,10 +1,16 @@
-<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="beetleTitle beetleDesc">
+  <title id="beetleTitle">A Beetle</title>
+  <desc id="beetleDesc">A stylized drawing of a beetle with segmented legs and antennae.</desc>
   <!-- Hong's Revenge (Now with 100% more cynicism) -->
   <defs>
     <linearGradient id="beetleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2a180a" />
+      <stop offset="0%" stop-color="#4a2a0a" />
       <stop offset="100%" stop-color="#110a05" />
     </linearGradient>
+    <radialGradient id="shellHighlight" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#6a4a2a" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#4a2a0a" stop-opacity="0" />
+    </radialGradient>
   </defs>
 
   <!-- Body: A beetle who's seen the underbelly of Shanghai -->
@@ -12,18 +18,23 @@
 
   <!-- Shell: The weight of your expectations -->
   <path d="M60,60 Q100,30 140,60 L130,70 Q100,85 70,70 Z" fill="url(#beetleGradient)" stroke="#000" stroke-width="1.5" />
+  <path d="M60,60 Q100,30 140,60 L130,70 Q100,85 70,70 Z" fill="url(#shellHighlight)" />
 
   <!-- Legs: For crawling away from your bad decisions -->
-  <line x1="70" y1="90" x2="40" y2="110" stroke="#000" stroke-width="2" stroke-linecap="round" />
-  <line x1="80" y1="95" x2="50" y2="110" stroke="#000" stroke-width="2" stroke-linecap="round" />
-  <line x1="120" y1="95" x2="150" y2="110" stroke="#000" stroke-width="2" stroke-linecap="round" />
-  <line x1="130" y1="90" x2="160" y2="110" stroke="#000" stroke-width="2" stroke-linecap="round" />
+  <polyline points="70,90 55,105 40,110" stroke="#000" stroke-width="2" stroke-linecap="round" fill="none" />
+  <polyline points="80,95 65,110 50,110" stroke="#000" stroke-width="2" stroke-linecap="round" fill="none" />
+  <polyline points="120,95 135,110 150,110" stroke="#000" stroke-width="2" stroke-linecap="round" fill="none" />
+  <polyline points="130,90 145,105 160,110" stroke="#000" stroke-width="2" stroke-linecap="round" fill="none" />
+
+  <!-- Antennae: For sensing impending deadlines -->
+  <path d="M80,65 Q70,50 60,40" stroke="#000" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M120,65 Q130,50 140,40" stroke="#000" stroke-width="1.5" fill="none" stroke-linecap="round"/>
 
   <!-- Eyes: Black. Soulless. Like your coding standards. -->
   <circle cx="85" cy="70" r="2" fill="#000" />
   <circle cx="115" cy="70" r="2" fill="#000" />
 
   <!-- Mandibles: Sharper than your wit -->
-  <path d="M60,80 Q70,75 75,80" stroke="#000" stroke-width="1.5" fill="none" />
-  <path d="M140,80 Q130,75 125,80" stroke="#000" stroke-width="1.5" fill="none" />
+  <path d="M90,75 Q95,70 100,75" stroke="#000" stroke-width="1.5" fill="none" />
+  <path d="M110,75 Q105,70 100,75" stroke="#000" stroke-width="1.5" fill="none" />
 </svg>

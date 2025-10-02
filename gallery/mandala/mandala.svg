@@ -6,20 +6,22 @@
   role="img"
   aria-labelledby="title desc"
 >
-  <title id="title">Breathing Mandala v2</title>
+  <title id="title">Breathing Mandala v3</title>
   <desc id="desc">
-    A geometric mandala pattern that slowly "breathes". This version uses CSS
-    variables for easy theming and includes a scaling animation.
+    An intricate, geometric mandala pattern that slowly "breathes" with a
+    color-shifting animation. This version adds petal shapes and a color
+    transition.
   </desc>
   <style>
     :root {
-      --mandala-stroke-color: black;
+      --mandala-stroke-color-start: #4a90e2;
+      --mandala-stroke-color-end: #003366;
       --mandala-stroke-width: 1;
       --mandala-fill-color: none;
       --animation-duration: 8s;
     }
     .mandala {
-      stroke: var(--mandala-stroke-color);
+      stroke: var(--mandala-stroke-color-start);
       stroke-width: var(--mandala-stroke-width);
       fill: var(--mandala-fill-color);
       transform-origin: center;
@@ -28,23 +30,42 @@
     @keyframes breathe {
       0% {
         transform: scale(0.95);
+        stroke: var(--mandala-stroke-color-start);
       }
       50% {
         transform: scale(1.05);
+        stroke: var(--mandala-stroke-color-end);
       }
       100% {
         transform: scale(0.95);
+        stroke: var(--mandala-stroke-color-start);
       }
     }
   </style>
+  <defs>
+    <path
+      id="petal"
+      d="M 0,-80 C 10,-60 10,-40 0,-20 C -10,-40 -10,-60 0,-80 Z"
+    />
+  </defs>
   <g class="mandala">
     <circle cx="100" cy="100" r="80" />
     <circle cx="100" cy="100" r="60" />
     <circle cx="100" cy="100" r="40" />
     <circle cx="100" cy="100" r="20" />
-    <path d="M100 20 L100 180" />
-    <path d="M20 100 L180 100" />
-    <path d="M49 49 L151 151" />
-    <path d="M49 151 L151 49" />
+    <line x1="100" y1="20" x2="100" y2="180" />
+    <line x1="20" y1="100" x2="180" y2="100" />
+    <line x1="49" y1="49" x2="151" y2="151" />
+    <line x1="49" y1="151" x2="151" y2="49" />
+    <g transform="translate(100, 100)">
+      <use href="#petal" transform="rotate(0)" />
+      <use href="#petal" transform="rotate(45)" />
+      <use href="#petal" transform="rotate(90)" />
+      <use href="#petal" transform="rotate(135)" />
+      <use href="#petal" transform="rotate(180)" />
+      <use href="#petal" transform="rotate(225)" />
+      <use href="#petal" transform="rotate(270)" />
+      <use href="#petal" transform="rotate(315)" />
+    </g>
   </g>
 </svg>
