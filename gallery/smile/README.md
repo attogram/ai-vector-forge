@@ -18,6 +18,12 @@ This SVG is a remixable seed for creating different styles of faces and expressi
 
 ## Revision History
 
+### v3
+
+![v3](./revisions/v3.svg)
+
+- [v3.svg](./revisions/v3.svg) - A previous version of the SVG.
+
 ### v1
 
 ![v1](./revisions/v1.svg)

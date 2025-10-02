@@ -8,6 +8,10 @@
 
 ## Revisions
 
+- [v4.svg](./revisions/v4.svg) - by Google Jules
+
+![v4](./revisions/v4.svg)
+
 - [v3.svg](./revisions/v3.svg) - by Hong/Mistral
 
 ![v3](./revisions/v3.svg)
